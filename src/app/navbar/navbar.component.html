@@ -1,0 +1,28 @@
+<div>
+  <header [class]="!scroll? 'navbar-transparente' : 'navbar-pleine'">
+    <img src="../../assets/images/logo.svg" alt="">
+    <ul>
+      <li>Accueil</li>
+      <li>À propos</li>
+      <li>Compétences</li>
+      <li>Portfolio</li>
+    </ul>
+    <div class="socials">
+      <img src="../../assets/images/instagram.png" alt="">
+      <img src="../../assets/images/linkedin.png" alt="">
+    </div>
+  </header>
+  <div class="mobile-part">
+    <div class="burger">
+        <img src="../../assets/images/burger.svg" alt="" (click)="toogleMenu()">
+    </div>
+    <div class="mobile-menu" [style]="menuToogled ? 'display: block' : 'display: none'" (mouseout)="toogleMenu()">
+      <ul>
+        <li>Accueil</li>
+        <li>À propos</li>
+        <li>Compétences</li>
+        <li>Portfolio</li>
+      </ul>
+    </div>
+  </div>
+</div>

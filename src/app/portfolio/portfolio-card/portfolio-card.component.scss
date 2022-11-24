@@ -1,0 +1,29 @@
+#portfolio-card{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  width: 30rem;
+  height: 15rem;
+
+  background-image: url('../../../assets/images/portfolio.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:  center;
+  background-color: var(--secondary-background-color);
+
+  border-radius: 0.4rem;
+
+  button{
+    width: 13rem;
+    height: 2.5rem;
+
+    background-color: var(--main-color);
+    color: #FFF;
+
+    margin-bottom: 2rem;
+    border: none;
+
+    cursor: pointer;
+  }
+}

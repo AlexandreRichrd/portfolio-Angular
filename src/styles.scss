@@ -1,1 +1,71 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  width: 100%;
+}
+
+
+:root{
+  --background-color: #f1f1f1;
+  --secondary-background-color: #e1e0e0;
+  --sub-title-color: #7F7F7F;
+  --font-color: #808080;
+  --font-color-2: #545454;
+  --main-color: #4672E3;
+}
+
+[data-theme=darkMode]{
+  --background-color: #373737;
+  --secondary-background-color: #D8D8D8;
+  --sub-title-color: #939393;
+  --font-color: #DCDCDC;
+  --main-color: #4672E3;
+}
+
+[main-color=marron]{
+  --main-color: #CAB785;
+}
+
+[main-color=rouge]{
+  --main-color: #C15555;
+}
+
+[main-color=violet]{
+  --main-color: #9D53AF;
+}
+
+[main-color=bleu]{
+  --main-color: #53AAAF;
+}
+
+[main-color=vert]{
+  --main-color: #54AF53;
+}
+
+
+
+// NAVBAR
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #676767;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5c5b5b;
+}

@@ -1,0 +1,22 @@
+#item{
+  height: 10rem;
+  width: 10rem;
+
+  padding: 1rem;
+
+  border-radius: 0.4rem;
+
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  cursor: pointer;
+  &:hover{
+    height: 11rem;
+    width: 11rem;
+
+    transform:rotate(5deg);
+
+    transition: all 0.2s ease;
+  }
+}
